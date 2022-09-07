@@ -815,7 +815,8 @@ body{
 /*  footer last  ends */
 
 }
-    
+ 
+/*
 @media only screen and  (max-width:950px){
     .carousel-indicators {
         position: absolute;
@@ -827,7 +828,6 @@ body{
         margin-left: -30%;
         text-align: left;
         list-style: none;
-        display: none;
     }
     
 }
@@ -843,10 +843,27 @@ body{
         margin-left: -30%;
         text-align: center;
         list-style: none;
-        top:80%;
     }
     
+}  */
+
+@media only screen and  (max-width:750px){
+    .heading-section p {
+        font-size: 13px;
+        line-height: 16px;
+        margin-top: 15px;
+    }
+
+
+    
+    
 }
+
+
+
+
+
+
 @media only screen and  (max-width:450px){
 
     .about-us h2 {
@@ -906,7 +923,7 @@ body{
       width:200px;
     }
 
-    .carousel-indicators {
+   /* .carousel-indicators {
         position: absolute;
         bottom: 10px;
         left: 50%;
@@ -916,9 +933,9 @@ body{
         margin-left: -30%;
         text-align: center;
         list-style: none;
-        top:90%;
+          top:90%;  
     }
-    
+     */
 
     }  
 
@@ -945,7 +962,7 @@ body{
         .footer-last img {
             width:100px;
           }
-          .carousel-indicators {
+      /*    .carousel-indicators {
             position: absolute;
             bottom: 10px;
             left: 50%;
@@ -955,9 +972,9 @@ body{
             margin-left: -30%;
             text-align: center;
             list-style: none;
-            top:100%;
+            top:100%;  
         }
-          
+           */
     
         }  
      
